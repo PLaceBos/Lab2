@@ -10,17 +10,18 @@ class Book {
 public:
 string name;
 string author;
-int pages;
+int pages  ;
+
 
 Book();
 
-Book(string book_name, string book_author, int book_pages);
+Book(const string book_name, const string book_author, int book_pages);
 
 Book(const Book &a);
 
-void setName(string book_name);
+void setName(const string book_name);
 
-void setAuthor(string book_color);
+void setAuthor(const string book_color);
 
 void setPages(int book_pages);
 
