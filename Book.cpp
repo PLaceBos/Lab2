@@ -23,6 +23,8 @@ void Book::setAuthor(string book_author) {
 author = book_author;
 }
 void Book::setPages(int book_pages) {
+//pages = book_pages;
+if(book_pages > 0)
 pages = book_pages;
 }
 string Book::getName() {
