@@ -37,7 +37,6 @@ k.print();
 cout << "k " << endl;
 k1.print();
 cout << "k1 " <<endl;
-//k.print();
 
 k.operator++();
 cout << "++" << endl;
@@ -67,12 +66,13 @@ cout << "< (pages) " << endl;
 t = k < k1;
 cout << "bool is " << t << endl;
 
-cout << "« (k1) " << endl;
+cout << "Â« (k1) " << endl;
 cout << k << endl;
 
-cout << "» (k1) " << endl;
+cout << "Â» (k1) " << endl;
 cout << "bool is " <<  k1 << endl;
 
 k.print();
 return 0;
 }
+
